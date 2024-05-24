@@ -3,8 +3,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'bg-flix': '#000000',
-        'text-flix': '#000000',
+        'black-flix': '#000000',
+        'white-flix': '#ffffff',
         'link-flix': '#0071eb',
         'accent-flix': '#e50914',
         'highlight-flix': '#414141'
