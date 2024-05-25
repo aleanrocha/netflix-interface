@@ -2,7 +2,7 @@ import { NetflixLogo, TranslateSelectIcon, TranslateSimbolIcon } from '../Icons'
 
 export const Header = () => {
   return (
-    <header className="flex justify-center items-center px-4 py-6 font-flix-sans">
+    <header className="flex justify-center items-center px-4 py-6 z-10 w-full absolute">
       <section className="flex justify-between items-center w-full text-white-flix p4 md:max-w-7xl md:m-auto">
         <div className="w-20 md:w-36">
           <NetflixLogo />
