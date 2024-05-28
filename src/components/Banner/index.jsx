@@ -12,11 +12,13 @@ export const Banner = () => {
         <p className="text-xl md:text-2xl">
           Assista onde quiser. Cancele quando quiser.
         </p>
-        <p className="text-lg md:text-2xl">
-          Tudo pronto para assistir? Informe seu email ou número de celular para
-          criar ou reiniciar sua assinatura.
-        </p>
-        <Input />
+        <div className="mt-2">
+          <p className="text-xl mb-4">
+            Quer assistir? Informe seu email para criar ou reiniciar sua
+            assinatura.
+          </p>
+          <Input />
+        </div>
       </div>
     </section>
   )

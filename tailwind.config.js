@@ -7,6 +7,7 @@ export default {
         'black-overlay': 'rgba(0,0,0,0.4)',
         'white-flix': '#ffffff',
         'link-flix': '#0071eb',
+        'border-flix': '#b7b7b7',
         'accent-flix': '#e50914',
         'highlight-flix': '#414141'
       },
