@@ -13,6 +13,7 @@
   "settings": { "react": { "version": "18.2" } },
   "plugins": ["prettier", "eslint-plugin-import-helpers"],
   "rules": {
+    "react/prop-types": "ignore",
     "import-helpers/order-imports": [
       "warn",
       {
