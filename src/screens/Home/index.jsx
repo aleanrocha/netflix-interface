@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 
 import tvFlix from '../../assets/tv-flix.png'
+import desktopFlix from '../../assets/desktop-flix.png'
 import { Banner } from '../../components/Banner'
 import { Header } from '../../components/Header'
 import { PopcornIcon } from '../../components/Icons'
@@ -39,7 +40,7 @@ export const Home = () => {
         content={
           'Assista a quantos filmes e séries quiser no celular, tablet, laptop e TV.'
         }
-        image={tvFlix}
+        image={desktopFlix}
         altImage={'Imagem Desktop'}
         video={tiringaVideo}
         isReverse
