@@ -1,10 +1,13 @@
 import { Fragment } from 'react'
 
-import tvFlix from '../../assets/tv-flix.png'
 import desktopFlix from '../../assets/desktop-flix.png'
+import kidsFlix from '../../assets/kids-flix.png'
+import imageMovieFlix from '../../assets/serie-offline-flix.jpg'
+import tvFlix from '../../assets/tv-flix.png'
 import { Banner } from '../../components/Banner'
 import { Header } from '../../components/Header'
 import { PopcornIcon } from '../../components/Icons'
+import { ImageFeature } from '../../components/ImageFeature'
 import { VideoFeature } from '../../components/VideoFeature'
 import rodolfoVideo from '../../videos/rodolfo.mp4'
 import tiringaVideo from '../../videos/tiringa.mp4'
@@ -43,6 +46,21 @@ export const Home = () => {
         image={desktopFlix}
         altImage={'Imagem Desktop'}
         video={tiringaVideo}
+        isReverse
+      />
+      <ImageFeature
+        title={'Crie perfis para crianças'}
+        content={
+          'Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.'
+        }
+        image={kidsFlix}
+        altImage={'Imagem de Crianças'}
+      />
+      <ImageFeature
+        title={'Baixe séries para assistir offline'}
+        content={'Assista em um avião, trem ou submarino.'}
+        image={imageMovieFlix}
+        altImage={'Imagem de Crianças'}
         isReverse
       />
     </Fragment>
