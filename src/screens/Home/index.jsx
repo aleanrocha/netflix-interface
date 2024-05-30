@@ -5,6 +5,7 @@ import kidsFlix from '../../assets/kids-flix.png'
 import imageMovieFlix from '../../assets/serie-offline-flix.jpg'
 import tvFlix from '../../assets/tv-flix.png'
 import { Banner } from '../../components/Banner'
+import { FaqSection } from '../../components/FaqSection'
 import { Header } from '../../components/Header'
 import { PopcornIcon } from '../../components/Icons'
 import { ImageFeature } from '../../components/ImageFeature'
@@ -63,6 +64,7 @@ export const Home = () => {
         altImage={'Imagem de Crianças'}
         isReverse
       />
+      <FaqSection />
     </Fragment>
   )
 }
