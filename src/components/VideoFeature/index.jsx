@@ -22,7 +22,7 @@ export const VideoFeature = ({
               autoPlay
               muted
               loop
-              className={`w-[80%] absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 -z-10 ${isReverse ? 'w-[65%] top-[33%]' : ''}`}
+              className={`w-[80%] absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 -z-10 ${isReverse ? 'w-[63%] top-[33%]' : ''}`}
             ></video>
             <img src={image} alt={altImage} />
           </div>
