@@ -11,11 +11,11 @@ export const Header = () => {
       <section className="flex justify-between items-center w-full text-white-flix p4 md:max-w-7xl md:m-auto">
         <div
           className="w-20 md:w-36"
-          onClick={() => navigate('/netflix-interface')}
+          onClick={() => navigate('/netflix-interface/')}
         >
           <NetflixLogo />
         </div>
-        {pathname === '/netflix-interface' && (
+        {pathname === '/netflix-interface/' && (
           <div className="flex gap-4">
             <div className="w-16 md:w-36 border border-highlight-flix rounded py-1 flex items-center gap-2 relative">
               <TranslateSimbolIcon />
