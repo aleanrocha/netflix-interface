@@ -41,7 +41,7 @@ export const FaqSection = () => {
             </div>
           ))}
         <div className="mt-6 grid gap-4">
-          <p className="text-lg md:text-xl">
+          <p className="text-lg md:text-xl text-center">
             Quer assistir? Informe seu email para criar ou reiniciar sua
             assinatura.
           </p>

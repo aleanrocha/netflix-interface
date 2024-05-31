@@ -23,7 +23,7 @@ export const Input = () => {
       <input
         type="submit"
         value="Vamos lá >"
-        className=" bg-accent-flix text-2xl rounded h-14 px-8 cursor-pointer transition-300 hover:opacity-90"
+        className=" bg-accent-flix text-2xl rounded h-14 px-8 cursor-pointer transition hover:opacity-90"
       />
     </form>
   )

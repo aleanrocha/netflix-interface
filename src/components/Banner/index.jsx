@@ -12,7 +12,7 @@ export const Banner = () => {
         <>
           <span className="bg-banner-mask-flix absolute top-0 left-0 w-full h-screen"></span>
           <div className="z-10 text-center p-8 flex flex-col gap-4">
-            <h1 className="text-3xl md:text-5xl font-bold">
+            <h1 className="text-3xl md:text-5xl font-black">
               Filmes, séries e muito mais, sem limites
             </h1>
             <p className="text-xl md:text-2xl">

@@ -6,7 +6,7 @@ export const Footer = () => {
   const { pathname } = useLocation()
 
   return (
-    <footer className="py-16 px-16">
+    <footer className="py-16 px-4 md:px-16">
       <div className="max-w-5xl m-auto grid gap-4 text-border-flix text-sm">
         <p className="mb-3  text-lg">
           Dúvidas? Ligue{' '}
@@ -46,12 +46,12 @@ export const Footer = () => {
             </>
           )}
         </nav>
-        <div className="w-16 md:w-36 border border-highlight-flix rounded py-1 flex items-center gap-2 mt-4 relative">
+        <div className="w-36 border border-border-flix border-opacity-60 rounded py-1 flex items-center gap-2 mt-4 relative">
           <TranslateSimbolIcon />
           <select
             name="lenguage"
             id="lenguage"
-            className="appearance-none w-full bg-transparent text-transparent md:text-white-flix md:text-center z-10 "
+            className="appearance-none w-full bg-transparent text-center z-10 "
           >
             <option value="pt" selected className="text-black-flix">
               Português
@@ -62,7 +62,7 @@ export const Footer = () => {
           </select>
           <TranslateSelectIcon />
         </div>
-        <p>Netflix Brasil</p>
+        {pathname === '/netflix-interface/' && <p>Netflix Brasil</p>}
       </div>
     </footer>
   )

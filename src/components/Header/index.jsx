@@ -17,7 +17,7 @@ export const Header = () => {
         </div>
         {pathname === '/netflix-interface/' && (
           <div className="flex gap-4">
-            <div className="w-16 md:w-36 border border-highlight-flix rounded py-1 flex items-center gap-2 relative">
+            <div className="w-16 md:w-36 border border-border-flix border-opacity-60 rounded py-1 flex items-center gap-2 relative">
               <TranslateSimbolIcon />
               <select
                 name="lenguage"
@@ -35,7 +35,7 @@ export const Header = () => {
             </div>
             <button
               type="button"
-              className="bg-accent-flix font-bold px-3 py-1 border-none rounded transition hover:opacity-90
+              className="bg-accent-flix px-3 py-1 border-none rounded transition hover:opacity-90
               "
               onClick={() => navigate('/netflix-interface/login')}
             >
