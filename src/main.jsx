@@ -10,11 +10,11 @@ import { Login } from './screens/Login'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: 'netflix-interface',
     element: <Home />
   },
   {
-    path: '/login',
+    path: 'netflix-interface/login',
     element: <Login />
   }
 ])

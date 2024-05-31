@@ -15,7 +15,7 @@ export const Footer = () => {
           </a>
         </p>
         <nav className="w-full grid grid-cols-2 md:grid-cols-4 md:grid-reve gap-4 underline">
-          {pathname === '/login' ? (
+          {pathname === '/netflix-interface/login' ? (
             <>
               <a href="#">Perguntas frequentes</a>
               <a href="#">Central de Ajuda</a>
