@@ -5,6 +5,7 @@ export default {
       colors: {
         'black-flix': '#000000',
         'black-overlay': 'rgba(0,0,0,0.4)',
+        'black-login-flix': 'rgba(0,0,0,0.7)',
         'white-flix': '#ffffff',
         'link-flix': '#0071eb',
         'border-flix': '#b7b7b7',

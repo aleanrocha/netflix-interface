@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .transition-height {
-    transition-property: height;
-  }
-}
-
 @layer {
   @font-face {
     font-display: optional;
