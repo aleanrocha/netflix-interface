@@ -8,10 +8,11 @@ export const Login = () => {
   return (
     <Fragment>
       <Header />
-      <section className="relative">
-        <Banner />
-
-        <form className="absolute max-w-md py-12 px-16 top-96 left-2/4 -translate-x-2/4  -translate-y-2/4 p-8 min-w-96 bg-black-login-flix flex flex-col gap-4 rounded-md">
+      <section className="relative border-b-2 border-highlight-flix border-opacity-70 md:border-none">
+        <div className="hidden md:block">
+          <Banner />
+        </div>
+        <form className="w-full md:max-w-md py-20 md:py-12 px-6 md:px-16 flex flex-col gap-4 rounded-md md:absolute md:top-96 md:left-2/4 md:-translate-x-2/4  md:-translate-y-2/4 md:bg-black-login-flix">
           <h2 className="text-3xl font-bold">Entrar</h2>
           <div className="border border-border-flix w-full border-opacity-60 rounded h-14 focus-within:border-white-flix relative">
             <input
