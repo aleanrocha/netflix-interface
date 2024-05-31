@@ -9,7 +9,7 @@ Este projeto é uma recriação da página inicial da Netflix, desenvolvida com 
 ## Visualizar 🔎
 
 <div>
-  <a target="_blank" href="https://aleanrocha.github.io/netflix-interfacen/"><img alt="img-ver" src="https://img.shields.io/badge/Ver Projeto-262577?style=for-the-badge&logo=Ver&logoColor=white&labelColor=rblack"></a>
+  <a target="_blank" href="https://aleanrocha.github.io/netflix-interface/"><img alt="img-ver" src="https://img.shields.io/badge/Ver Projeto-262577?style=for-the-badge&logo=Ver&logoColor=white&labelColor=rblack"></a>
 </div>
 
 ## Tecnologias 🚀
