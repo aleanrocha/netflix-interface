@@ -13,7 +13,7 @@ export default {
         'highlight-flix': '#414141'
       },
       fontFamily: {
-        'flix-sans': ['Netflix Sans', 'Arial', 'Helvetica', 'sans-serif']
+        'flix-sans': ['Arial', 'Helvetica', 'sans-serif']
       },
       height: {
         'max-90': '90vh'
